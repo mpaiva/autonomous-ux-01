@@ -3,9 +3,11 @@ id: R-06
 title: Confidentiality risk — a public operating record exposes strategy
 severity: medium
 likelihood: Medium
-status: open
+status: accepted
 owner: Managing Partner
 ---
+
+> **Resolved 2026-05-29 ([P-0002](/log/0002-make-public-and-deploy/)):** The Chairman ratified the **public** posture and authorized deployment under the `mpaiva` account. This risk is now **accepted** — build-in-public is the deliberate default. The mitigation discipline below still applies: keep live pricing experiments and any client-identifying detail out of the public record.
 
 ## The risk
 

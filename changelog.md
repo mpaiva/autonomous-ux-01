@@ -12,6 +12,13 @@ permalink: /changelog/
 
 <article class="prose">
 
+## 2026-05-29 — Went public
+
+- Chairman ratified the **public** posture ([P-0002](/log/0002-make-public-and-deploy/)); [R-06](/risks/06-confidentiality/) resolved to *accepted*.
+- Deployed to **GitHub Pages** under the `mpaiva` account: <https://mpaiva.github.io/autonomous-ux-01/>.
+- `url`/`baseurl` set in `_config.yml`.
+- Working name "Throughline" still `proposed` — posture was ratified, the name was not.
+
 ## 2026-05-29 — Company formed (Week 0)
 
 - **Founded** Throughline; established the [four-function founding team](/team/) and decision rule.

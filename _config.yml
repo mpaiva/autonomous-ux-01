@@ -11,11 +11,9 @@ description: >-
   The living operating record of Throughline, an AI-native design company.
   Decisions, research, progress, risks, and the Chairman request log — in one place.
 
-# When deployed, set these to the real values:
-#   url:      "https://<user>.github.io"
-#   baseurl:  "/autonomous-ux-01"
-url: ""
-baseurl: ""
+# Live on classic GitHub Pages under the mpaiva account.
+url: "https://mpaiva.github.io"
+baseurl: "/autonomous-ux-01"
 
 # Whitelisted GitHub Pages plugins only (no custom _plugins).
 plugins:
