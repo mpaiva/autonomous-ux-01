@@ -1,0 +1,25 @@
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  <main>
+    <div class="wrap">
+      <div class="page-head">
+        <p class="eyebrow">Research · {{ page.date }}</p>
+        <h1>{{ page.title }}</h1>
+        {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+      </div>
+
+      <dl class="meta-grid">
+        {% if page.method %}<dt>Method</dt><dd>{{ page.method }}</dd>{% endif %}
+        {% if page.confidence %}<dt>Confidence</dt><dd>{{ page.confidence }}</dd>{% endif %}
+        {% if page.decisions %}<dt>Informs</dt><dd>{{ page.decisions | join: ", " }}</dd>{% endif %}
+      </dl>
+
+      <article class="prose">{{ content }}</article>
+
+      <p style="margin-top:32px"><a href="{{ '/research/' | relative_url }}">← All research</a></p>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

@@ -1,0 +1,73 @@
+# =============================================================
+# Throughline — Company Operating Record & Chairman Visibility
+# Built on classic GitHub Pages (safe mode). No custom plugins.
+# Everything here is rendered with collections + Liquid only,
+# so it deploys on github.io without an Actions build.
+# =============================================================
+
+title: "Throughline — Operating Record"
+tagline: "The design studio native to AI products."
+description: >-
+  The living operating record of Throughline, an AI-native design company.
+  Decisions, research, progress, risks, and the Chairman request log — in one place.
+
+# When deployed, set these to the real values:
+#   url:      "https://<user>.github.io"
+#   baseurl:  "/autonomous-ux-01"
+url: ""
+baseurl: ""
+
+# Whitelisted GitHub Pages plugins only (no custom _plugins).
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# ---- Collections (the operating record) ----------------------
+collections:
+  team:
+    output: true
+    permalink: /team/:name/
+  decisions:
+    output: true
+    permalink: /decisions/:name/
+  research:
+    output: true
+    permalink: /research/:name/
+  updates:
+    output: true
+    permalink: /updates/:name/
+  risks:
+    output: true
+    permalink: /risks/:name/
+  prompts:
+    output: true
+    permalink: /log/:name/
+
+# ---- Default layouts per collection --------------------------
+defaults:
+  - scope: { path: "", type: "team" }
+    values: { layout: "member" }
+  - scope: { path: "", type: "decisions" }
+    values: { layout: "decision" }
+  - scope: { path: "", type: "research" }
+    values: { layout: "research" }
+  - scope: { path: "", type: "updates" }
+    values: { layout: "update" }
+  - scope: { path: "", type: "risks" }
+    values: { layout: "risk" }
+  - scope: { path: "", type: "prompts" }
+    values: { layout: "prompt" }
+  - scope: { path: "", type: "pages" }
+    values: { layout: "default" }
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+sass:
+  style: compressed

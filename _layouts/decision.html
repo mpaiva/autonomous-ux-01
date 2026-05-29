@@ -1,0 +1,36 @@
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  <main>
+    <div class="wrap">
+      <div class="page-head">
+        <p class="eyebrow">Decision · {{ page.id }}</p>
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <dl class="meta-grid">
+        <dt>Status</dt>
+        <dd>
+          {% assign s = page.status %}
+          {% if s == 'decided' %}<span class="pill green">Decided</span>
+          {% elsif s == 'proposed' %}<span class="pill amber">Proposed</span>
+          {% elsif s == 'revisited' %}<span class="pill amber">Revisited</span>
+          {% elsif s == 'reversed' %}<span class="pill red">Reversed</span>
+          {% else %}<span class="pill">{{ s }}</span>{% endif %}
+        </dd>
+        <dt>Date</dt><dd>{{ page.date }}</dd>
+        <dt>Owner</dt><dd>{{ page.owner }}</dd>
+        {% if page.deciders %}<dt>Deciders</dt><dd>{{ page.deciders | join: ", " }}</dd>{% endif %}
+        {% if page.tags %}<dt>Tags</dt><dd>{{ page.tags | join: ", " }}</dd>{% endif %}
+        {% if page.prompts %}<dt>From prompt</dt><dd>{{ page.prompts | join: ", " }}</dd>{% endif %}
+        {% if page.supersedes %}<dt>Supersedes</dt><dd>{{ page.supersedes }}</dd>{% endif %}
+      </dl>
+
+      <article class="prose">{{ content }}</article>
+
+      <p style="margin-top:32px"><a href="{{ '/decisions/' | relative_url }}">← All decisions</a></p>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

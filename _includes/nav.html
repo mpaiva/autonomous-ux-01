@@ -1,0 +1,18 @@
+<header class="masthead">
+  <div class="wrap">
+    <div class="brand">
+      <a class="logo" href="{{ '/' | relative_url }}">{{ site.data.company.name }}</a>
+      <span class="kicker">Operating Record</span>
+    </div>
+    <nav class="nav" aria-label="Primary">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Dashboard</a>
+      <a href="{{ '/thesis/' | relative_url }}"{% if page.url contains 'thesis' %} class="active"{% endif %}>Thesis</a>
+      <a href="{{ '/team/' | relative_url }}"{% if page.url contains 'team' %} class="active"{% endif %}>Team</a>
+      <a href="{{ '/decisions/' | relative_url }}"{% if page.url contains 'decision' %} class="active"{% endif %}>Decisions</a>
+      <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
+      <a href="{{ '/risks/' | relative_url }}"{% if page.url contains 'risk' %} class="active"{% endif %}>Risks</a>
+      <a href="{{ '/updates/' | relative_url }}"{% if page.url contains 'update' %} class="active"{% endif %}>Updates</a>
+      <a href="{{ '/log/' | relative_url }}"{% if page.url contains 'log' %} class="active"{% endif %}>Chairman Log</a>
+    </nav>
+  </div>
+</header>

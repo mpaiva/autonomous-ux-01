@@ -1,0 +1,36 @@
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  <main>
+    <div class="wrap">
+      <div class="page-head">
+        <p class="eyebrow">Risk · {{ page.id }}</p>
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <dl class="meta-grid">
+        <dt>Severity</dt>
+        <dd>
+          {% if page.severity == 'high' %}<span class="pill red">High</span>
+          {% elsif page.severity == 'medium' %}<span class="pill amber">Medium</span>
+          {% else %}<span class="pill green">Low</span>{% endif %}
+        </dd>
+        <dt>Likelihood</dt><dd>{{ page.likelihood }}</dd>
+        <dt>Status</dt>
+        <dd>
+          {% if page.status == 'open' %}<span class="pill red">Open</span>
+          {% elsif page.status == 'mitigating' %}<span class="pill amber">Mitigating</span>
+          {% elsif page.status == 'accepted' %}<span class="pill">Accepted</span>
+          {% else %}<span class="pill green">Closed</span>{% endif %}
+        </dd>
+        <dt>Owner</dt><dd>{{ page.owner }}</dd>
+      </dl>
+
+      <article class="prose">{{ content }}</article>
+
+      <p style="margin-top:32px"><a href="{{ '/risks/' | relative_url }}">← All risks</a></p>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

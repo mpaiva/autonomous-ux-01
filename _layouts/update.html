@@ -1,0 +1,16 @@
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  <main>
+    <div class="wrap">
+      <div class="page-head">
+        <p class="eyebrow">Progress update · Week {{ page.week }} · {{ page.date }}</p>
+        <h1>{{ page.title }}</h1>
+      </div>
+      <article class="prose">{{ content }}</article>
+      <p style="margin-top:32px"><a href="{{ '/updates/' | relative_url }}">← All updates</a></p>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

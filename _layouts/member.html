@@ -1,0 +1,25 @@
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  <main>
+    <div class="wrap">
+      <div class="page-head">
+        <p class="eyebrow">Founding team · {{ page.type }}</p>
+        <h1>{{ page.name }}</h1>
+        <p class="lede">{{ page.role }}</p>
+      </div>
+
+      <dl class="meta-grid">
+        {% if page.owns %}<dt>Owns</dt><dd>{{ page.owns | join: ", " }}</dd>{% endif %}
+        {% if page.decides %}<dt>Decision rights</dt><dd>{{ page.decides }}</dd>{% endif %}
+        {% if page.when %}<dt>Active</dt><dd>{{ page.when }}</dd>{% endif %}
+      </dl>
+
+      <article class="prose">{{ content }}</article>
+
+      <p style="margin-top:32px"><a href="{{ '/team/' | relative_url }}">← Full team</a></p>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

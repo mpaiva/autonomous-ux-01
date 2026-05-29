@@ -1,0 +1,35 @@
+# Chairman scorecard — the numbers the dashboard renders at the top.
+# Update this file whenever the company state changes; the index page reads it.
+phase: "Formation"
+week: 0
+as_of: "2026-05-29"
+
+# Headline health indicators. status: green | amber | red
+indicators:
+  - label: "Thesis"
+    value: "Defined"
+    status: green
+    note: "AI-native design studio for seed–Series A AI product startups."
+  - label: "Founding team"
+    value: "4 functions set"
+    status: green
+    note: "Managing Partner, Design Principal, AI Systems Lead, Growth Lead."
+  - label: "First paying customer"
+    value: "Not yet"
+    status: amber
+    note: "Wedge offer = fixed-fee AI UX Audit. GTM not yet launched."
+  - label: "Demand validated"
+    value: "Hypothesis"
+    status: amber
+    note: "Pricing & willingness-to-pay being researched; no signed clients."
+  - label: "Open risks"
+    value: "6 tracked"
+    status: amber
+    note: "Demand risk is the one that can kill the company."
+
+# What's next — drives the dashboard "Next" panel.
+next:
+  - "Validate the AI UX Audit wedge with 5 target-ICP founder conversations."
+  - "Finalize pricing tiers once market research returns."
+  - "Publish the first public AI-UX teardown as a GTM proof point."
+  - "Decide hosting/deploy with the Chairman (publishing the operating record)."

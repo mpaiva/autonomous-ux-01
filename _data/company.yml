@@ -1,0 +1,19 @@
+# Single source of truth for company facts shown across the site.
+name: "Throughline"
+working_name: true   # name is a reversible founding decision pending Chairman trademark sign-off
+one_liner: "The design studio native to AI products."
+thesis_short: >-
+  AI startups can build model capability but struggle to turn it into trustworthy,
+  usable product experience. Throughline designs the human layer of AI products —
+  with an AI-augmented team that is faster than legacy agencies and more senior
+  than freelancers.
+founded: "2026-05-29"
+stage: "Formation — Week 0"
+owner: "Chairman (sole owner & investor)"
+
+# Founding operating model
+decision_rule: >-
+  Each lead decides within their domain. Cross-domain calls need any 2 of 4 leads.
+  Deadlocks: Managing Partner decides and the dissent is logged. Escalation-class
+  decisions (legal, financial, ownership, ethical) go to the Chairman.
+cadence: "Weekly operating rhythm; Friday Chairman update + changelog."

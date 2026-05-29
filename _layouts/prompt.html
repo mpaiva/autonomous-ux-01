@@ -1,0 +1,31 @@
+{% include head.html %}
+<body>
+  {% include nav.html %}
+  <main>
+    <div class="wrap">
+      <div class="page-head">
+        <p class="eyebrow">Chairman request · {{ page.id }}</p>
+        <h1>{{ page.title }}</h1>
+      </div>
+
+      <dl class="meta-grid">
+        <dt>Received</dt><dd>{{ page.received }}</dd>
+        <dt>From</dt><dd>{{ page.from }}</dd>
+        <dt>Status</dt>
+        <dd>
+          {% if page.status == 'addressed' %}<span class="pill green">Addressed</span>
+          {% elsif page.status == 'in-progress' %}<span class="pill amber">In progress</span>
+          {% else %}<span class="pill">{{ page.status }}</span>{% endif %}
+        </dd>
+        {% if page.decisions %}<dt>Decisions influenced</dt><dd>{{ page.decisions | join: ", " }}</dd>{% endif %}
+        {% if page.artifacts %}<dt>Related artifacts</dt><dd>{{ page.artifacts | join: ", " }}</dd>{% endif %}
+      </dl>
+
+      <article class="prose">{{ content }}</article>
+
+      <p style="margin-top:32px"><a href="{{ '/log/' | relative_url }}">← Full Chairman log</a></p>
+    </div>
+  </main>
+  {% include footer.html %}
+</body>
+</html>
