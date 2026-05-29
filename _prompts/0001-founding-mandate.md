@@ -16,15 +16,15 @@ The Chairman, as sole owner and investor, instructed a founding team to form an 
 
 ## Actions taken
 
-- Self-organized into a [four-function founding team](/team/) with an explicit decision rule ([D-0001](/decisions/0001-founding-team-structure/)).
-- Ran two cited market-research streams ([pricing/competitors](/research/0001-design-studio-pricing/), [pain points](/research/0002-ai-startup-design-pain/)).
-- Made ten founding [decisions](/decisions/) — specialization, ICP, problem wedge, service model, pricing hypothesis, GTM, AI-native ops, the operating record itself, and a working name — each with rationale and flagged assumptions.
-- Logged six [risks](/risks/), led by demand risk.
-- Built this Jekyll operating record + Chairman [dashboard](/) and this request log.
+- Self-organized into a [four-function founding team]({{ '/team/' | relative_url }}) with an explicit decision rule ([D-0001]({{ '/decisions/0001-founding-team-structure/' | relative_url }})).
+- Ran two cited market-research streams ([pricing/competitors]({{ '/research/0001-design-studio-pricing/' | relative_url }}), [pain points]({{ '/research/0002-ai-startup-design-pain/' | relative_url }})).
+- Made ten founding [decisions]({{ '/decisions/' | relative_url }}) — specialization, ICP, problem wedge, service model, pricing hypothesis, GTM, AI-native ops, the operating record itself, and a working name — each with rationale and flagged assumptions.
+- Logged six [risks]({{ '/risks/' | relative_url }}), led by demand risk.
+- Built this Jekyll operating record + Chairman [dashboard]({{ '/' | relative_url }}) and this request log.
 
 ## Status
 
-**In progress.** The company is formed on paper and the operating record is live locally. Two items await the Chairman: (1) authorize deployment/hosting and the public-vs-private posture ([R-06](/risks/06-confidentiality/)), and (2) sign off (or redirect) on the working name and any trademark/domain steps ([D-0010](/decisions/0010-working-name-throughline/)). Neither blocks the team's next operating work: validating the audit wedge.
+**In progress.** The company is formed on paper and the operating record is live locally. Two items await the Chairman: (1) authorize deployment/hosting and the public-vs-private posture ([R-06]({{ '/risks/06-confidentiality/' | relative_url }})), and (2) sign off (or redirect) on the working name and any trademark/domain steps ([D-0010]({{ '/decisions/0010-working-name-throughline/' | relative_url }})). Neither blocks the team's next operating work: validating the audit wedge.
 
 ---
 

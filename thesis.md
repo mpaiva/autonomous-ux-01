@@ -16,7 +16,7 @@ permalink: /thesis/
 
 AI products are non-deterministic. The same input can produce different output, so errors are not edge cases to be patched — they are the normal operating condition, and they have to be *designed for*. Two consequences fall out of this, and both are now blocking real revenue for AI startups:
 
-1. **Trust is the enterprise pilot-killer.** Market research is blunt about it: the biggest killer of early enterprise pilots is not the model failing — it's the lack of organizational trust in a black-box system. Buyers won't integrate a tool they can't explain, audit, or supervise. ([see Research](/research/))
+1. **Trust is the enterprise pilot-killer.** Market research is blunt about it: the biggest killer of early enterprise pilots is not the model failing — it's the lack of organizational trust in a black-box system. Buyers won't integrate a tool they can't explain, audit, or supervise. ([see Research]({{ '/research/' | relative_url }}))
 2. **The hardest UX problems have no established patterns yet.** Agent supervision and human-in-the-loop interfaces — overview panels, oversight flows, activity logs, work reports, trust calibration — are the most concrete, least-solved cluster in the field. There is a genuine *pattern vacuum*.
 
 Founders treat design as polish applied after engineering, so they under-invest until something forces the issue: a stalled enterprise pilot, a fundraise where "80% accuracy" reads to investors as "20% failure," or onboarding friction that quietly caps retention.

@@ -23,9 +23,9 @@ Explicitly **not** our first market:
 
 ## Rationale
 
-Research points to seed as the sweet spot: these companies are well-funded (seed rounds commonly ~$4–5M), need to convert raw capability into a fundable, demoable, trustworthy product, and predominantly buy design via fractional/agency help before building in-house. Series A adds the enterprise-trust and scaling triggers. ([Research](/research/0002-ai-startup-design-pain/))
+Research points to seed as the sweet spot: these companies are well-funded (seed rounds commonly ~$4–5M), need to convert raw capability into a fundable, demoable, trustworthy product, and predominantly buy design via fractional/agency help before building in-house. Series A adds the enterprise-trust and scaling triggers. ([Research]({{ '/research/0002-ai-startup-design-pain/' | relative_url }}))
 
 ## Assumptions & risks
 
 - **Assumption:** the in-house-vs-agency switch point sits late enough that Series A companies still buy outside help — this is inference, not hard data; flagged in research.
-- **Assumption:** design budgets exist at this stage specifically for design (vs. marketing retainers). Willingness-to-pay evidence is thin — a primary thing to validate. See [R-01](/risks/01-demand/).
+- **Assumption:** design budgets exist at this stage specifically for design (vs. marketing retainers). Willingness-to-pay evidence is thin — a primary thing to validate. See [R-01]({{ '/risks/01-demand/' | relative_url }}).

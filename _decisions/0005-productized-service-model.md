@@ -28,5 +28,5 @@ The fixed-fee audit de-risks the first transaction and qualifies the client, sol
 
 ## Assumptions & risks
 
-- **Assumption:** audits convert to retainers at a workable rate — unvalidated; the central GTM experiment. See [R-01](/risks/01-demand/).
+- **Assumption:** audits convert to retainers at a workable rate — unvalidated; the central GTM experiment. See [R-01]({{ '/risks/01-demand/' | relative_url }}).
 - **Assumption:** open-sourcing patterns helps more (authority, inbound) than it hurts (competitors copy). Accepted deliberately.

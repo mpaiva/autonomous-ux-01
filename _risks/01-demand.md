@@ -7,9 +7,11 @@ status: open
 owner: Growth Lead
 ---
 
+> **Status note (2026-05-29):** The [demand-validation discovery kit]({{ '/research/icp-demand-validation/plan/' | relative_url }}) is built and ready, but **0 of 5 conversations have been conducted — demand is still UNVALIDATED and this risk remains fully open.** It moves to *mitigating* only when real founders meet the [decision gate]({{ '/research/icp-demand-validation/plan/' | relative_url }}). Conducting the conversations is blocked on Chairman-provided founder access ([P-0003]({{ '/log/0003-start-icp-conversations/' | relative_url }})).
+
 ## The risk
 
-The single risk that can kill the company. Our thesis assumes seed–Series A AI startups will pay outside money for design help. Willingness-to-pay evidence is genuinely thin (see [Research](/research/0002-ai-startup-design-pain/)) — much of the "budget" data circulating is for marketing retainers, not design.
+The single risk that can kill the company. Our thesis assumes seed–Series A AI startups will pay outside money for design help. Willingness-to-pay evidence is genuinely thin (see [Research]({{ '/research/0002-ai-startup-design-pain/' | relative_url }})) — much of the "budget" data circulating is for marketing retainers, not design.
 
 ## Why it matters
 

@@ -24,7 +24,7 @@ We need price points to start selling, but we have no signed clients yet. Market
 
 ## Rationale
 
-Research showed a proven productized band (~$5–8k/mo subscriptions like DesignJoy/Superside) and a fractional band ($3–10k/mo), with **no public price card** for AI-specialized fractional leads — a gap we can price into from above on expertise scarcity. We anchor in proven bands and add a specialization premium. ([Research](/research/0001-design-studio-pricing/))
+Research showed a proven productized band (~$5–8k/mo subscriptions like DesignJoy/Superside) and a fractional band ($3–10k/mo), with **no public price card** for AI-specialized fractional leads — a gap we can price into from above on expertise scarcity. We anchor in proven bands and add a specialization premium. ([Research]({{ '/research/0001-design-studio-pricing/' | relative_url }}))
 
 ## Assumptions & risks
 

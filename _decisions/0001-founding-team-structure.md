@@ -24,7 +24,7 @@ Organize as **four founding functions**, each justified by a concrete need:
 
 **Decision rule:** in-domain calls belong to the owning lead; cross-domain calls need any 2 of 4; deadlocks go to the Managing Partner with dissent logged; legal/financial/ownership/ethical decisions escalate to the Chairman.
 
-Deferred roles (Finance/Ops, Recruiting, additional designers) are added when revenue justifies them — see [scaling decision](/decisions/0008-ai-native-operating-model/).
+Deferred roles (Finance/Ops, Recruiting, additional designers) are added when revenue justifies them — see [scaling decision]({{ '/decisions/0008-ai-native-operating-model/' | relative_url }}).
 
 ## Rationale
 

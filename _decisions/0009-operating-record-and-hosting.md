@@ -27,7 +27,7 @@ A living record beats a slide deck: it is always current, fully traceable, and d
 
 ## Consequences
 
-- **Deployment is a Chairman-authorized handoff.** Publishing this record makes internal strategy public and indexable, and requires the Chairman's GitHub account. We build locally and present "make it live" as a decision for the Chairman — see [R-06](/risks/06-confidentiality/).
+- **Deployment is a Chairman-authorized handoff.** Publishing this record makes internal strategy public and indexable, and requires the Chairman's GitHub account. We build locally and present "make it live" as a decision for the Chairman — see [R-06]({{ '/risks/06-confidentiality/' | relative_url }}).
 
 ## Assumptions & risks
 

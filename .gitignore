@@ -5,3 +5,7 @@ _site/
 vendor/
 Gemfile.lock
 .DS_Store
+
+# Internal working docs that must NOT be published (named prospects, contacts).
+# Kept out of the public operating record for privacy (R-06).
+_private/

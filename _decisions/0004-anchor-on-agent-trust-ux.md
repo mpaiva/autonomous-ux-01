@@ -23,7 +23,7 @@ Anchor on the three best-evidenced, most pay-worthy problems:
 
 ## Rationale
 
-This is the decision where our two research streams *converged*: the most painful, least-solved problem (agent/trust UX) is the *same place* as the competitive white-space (no named studio owns eval/observability and agent-interaction UX). Owning the hardest problem with no incumbent is the strongest position available to us. ([pain research](/research/0002-ai-startup-design-pain/), [pricing/competitor research](/research/0001-design-studio-pricing/))
+This is the decision where our two research streams *converged*: the most painful, least-solved problem (agent/trust UX) is the *same place* as the competitive white-space (no named studio owns eval/observability and agent-interaction UX). Owning the hardest problem with no incumbent is the strongest position available to us. ([pain research]({{ '/research/0002-ai-startup-design-pain/' | relative_url }}), [pricing/competitor research]({{ '/research/0001-design-studio-pricing/' | relative_url }}))
 
 ## Consequences
 
@@ -32,4 +32,4 @@ This is the decision where our two research streams *converged*: the most painfu
 
 ## Assumptions & risks
 
-- **Assumption:** the pattern vacuum persists long enough for us to plant a flag; incumbents (Adam Fard, 925Studios, Punchcut, Clay, Lazarev) could move in. Tracked as [R-02](/risks/02-differentiation/).
+- **Assumption:** the pattern vacuum persists long enough for us to plant a flag; incumbents (Adam Fard, 925Studios, Punchcut, Clay, Lazarev) could move in. Tracked as [R-02]({{ '/risks/02-differentiation/' | relative_url }}).

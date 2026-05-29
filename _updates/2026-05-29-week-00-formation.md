@@ -9,7 +9,7 @@ Chairman — Throughline exists on paper, and its operating record is the site y
 
 ## What we decided
 
-We made **ten founding decisions** ([all here](/decisions/)). The spine of them:
+We made **ten founding decisions** ([all here]({{ '/decisions/' | relative_url }})). The spine of them:
 
 - **What we are:** an AI-native studio specialized in the UX of AI products — not a generalist agency that happens to use AI tools.
 - **Who we serve:** seed–Series A applied-AI startups (~10–50 people) hitting the trust/usability wall.
@@ -19,7 +19,7 @@ We made **ten founding decisions** ([all here](/decisions/)). The spine of them:
 
 ## Why it's defensible
 
-Our two research streams converged: the **most painful problem** for AI startups (agent/trust UX) is the **same place** as the **competitive white-space** (no named studio owns eval/agent-supervision UX). We're aiming the company at the hardest problem with no incumbent. Both briefs are cited in [Research](/research/).
+Our two research streams converged: the **most painful problem** for AI startups (agent/trust UX) is the **same place** as the **competitive white-space** (no named studio owns eval/agent-supervision UX). We're aiming the company at the hardest problem with no incumbent. Both briefs are cited in [Research]({{ '/research/' | relative_url }}).
 
 ## What we learned
 
@@ -28,14 +28,14 @@ Our two research streams converged: the **most painful problem** for AI startups
 
 ## What's at risk
 
-Six risks tracked; the one that can kill us is **demand** ([R-01](/risks/01-demand/)). Everything is sequenced to validate that first.
+Six risks tracked; the one that can kill us is **demand** ([R-01]({{ '/risks/01-demand/' | relative_url }})). Everything is sequenced to validate that first.
 
 ## What needs the Chairman
 
 Two escalations, neither blocking our next work:
 
-1. **Deployment & posture** — do you want this operating record **public** (build-in-public GTM), **private**, or **hybrid**? Publishing needs your GitHub account. ([R-06](/risks/06-confidentiality/))
-2. **Name** — we're operating as the working name **"Throughline"**; final name/domain/trademark is yours to ratify. ([D-0010](/decisions/0010-working-name-throughline/))
+1. **Deployment & posture** — do you want this operating record **public** (build-in-public GTM), **private**, or **hybrid**? Publishing needs your GitHub account. ([R-06]({{ '/risks/06-confidentiality/' | relative_url }}))
+2. **Name** — we're operating as the working name **"Throughline"**; final name/domain/trademark is yours to ratify. ([D-0010]({{ '/decisions/0010-working-name-throughline/' | relative_url }}))
 
 ## Next week
 

@@ -28,5 +28,5 @@ Content/IP is the cheapest credible authority play for a specialist, and it comp
 
 ## Assumptions & risks
 
-- **Assumption:** teardowns and a public library generate qualified inbound rather than just applause. Tracked alongside [R-01](/risks/01-demand/).
-- **Assumption:** building in public doesn't leak so much strategy that it aids competitors — see [R-06](/risks/06-confidentiality/).
+- **Assumption:** teardowns and a public library generate qualified inbound rather than just applause. Tracked alongside [R-01]({{ '/risks/01-demand/' | relative_url }}).
+- **Assumption:** building in public doesn't leak so much strategy that it aids competitors — see [R-06]({{ '/risks/06-confidentiality/' | relative_url }}).

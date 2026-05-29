@@ -27,5 +27,5 @@ This is the structural moat: a lower cost base and faster cycles than legacy age
 
 ## Assumptions & risks
 
-- **Assumption:** AI-augmented work is *perceived* as high quality, not cut-rate. Tracked as [R-03](/risks/03-quality-perception/).
+- **Assumption:** AI-augmented work is *perceived* as high quality, not cut-rate. Tracked as [R-03]({{ '/risks/03-quality-perception/' | relative_url }}).
 - **Assumption:** the human-owned final 20% is genuinely what clients pay for, protecting margins.

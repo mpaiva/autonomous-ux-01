@@ -19,7 +19,7 @@ Be **both AI-native in how we operate and AI-specialized in what we're expert at
 
 ## Rationale
 
-The generalist design-subscription market is crowded and commoditized (DesignJoy, Superside, et al. compete on throughput and price — see [Research](/research/0001-design-studio-pricing/)). Specialization in AI-product UX is where the pain is sharpest and the competition thinnest. Operating AI-natively gives us a cost/speed edge *on top of* the specialization, rather than as our only claim.
+The generalist design-subscription market is crowded and commoditized (DesignJoy, Superside, et al. compete on throughput and price — see [Research]({{ '/research/0001-design-studio-pricing/' | relative_url }})). Specialization in AI-product UX is where the pain is sharpest and the competition thinnest. Operating AI-natively gives us a cost/speed edge *on top of* the specialization, rather than as our only claim.
 
 ## Consequences
 
@@ -28,4 +28,4 @@ The generalist design-subscription market is crowded and commoditized (DesignJoy
 
 ## Assumptions & risks
 
-- **Assumption:** the AI-product-UX niche is large and durable enough to sustain a studio — supported by funding levels and pain evidence, but not yet validated with our own paying clients. Tracked as [R-01 demand risk](/risks/01-demand/) and [R-02 differentiation risk](/risks/02-differentiation/).
+- **Assumption:** the AI-product-UX niche is large and durable enough to sustain a studio — supported by funding levels and pain evidence, but not yet validated with our own paying clients. Tracked as [R-01 demand risk]({{ '/risks/01-demand/' | relative_url }}) and [R-02 differentiation risk]({{ '/risks/02-differentiation/' | relative_url }}).

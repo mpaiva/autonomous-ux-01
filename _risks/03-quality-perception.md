@@ -19,4 +19,4 @@ Our cost/speed advantage comes from agent-augmented delivery. If clients perceiv
 
 ## Status
 
-Mitigating — baked into the [operating model](/decisions/0008-ai-native-operating-model/) from day one rather than addressed reactively.
+Mitigating — baked into the [operating model]({{ '/decisions/0008-ai-native-operating-model/' | relative_url }}) from day one rather than addressed reactively.
